@@ -31,8 +31,8 @@
     },
     {
         "id": "02",
-        "siteName": "",
-        "title": "Regular News",
+        "siteName": "Architec-Artific.",
+        "title": "A Review Website For A Architech Engineer",
         "description": "",
         "image1": "",
         "image2": "",
@@ -54,7 +54,7 @@
         "technology5": "MongoDB ",
         "best": true,
         "host": "",
-        "live": "",
+        "live": "https://architec-artifice.web.app/",
         "server": "",
         "client": "",
         "devloperName": "All-Hafesh Soumik"
@@ -62,7 +62,7 @@
     {
         "id": "03",
         "siteName": "",
-        "title": "International News",
+        "title": "A Online Technology Learning Website. ",
         "description": "",
         "image1": "",
         "image2": "",
@@ -84,7 +84,7 @@
         "technology5": "MongoDB ",
         "best": true,
         "host": "",
-        "live": "",
+        "live": "https://unlock-your-dreams.web.app/",
         "server": "",
         "client": "",
         "devloperName": "All-Hafesh Soumik"

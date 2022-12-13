@@ -44,11 +44,9 @@ const Projects = () => {
                                     <div className='flex justify-around items-center'>
                                         <Link to={`/projects/${project.id}`} className='ml-[-50px]'> <Button value={"Details"}></Button></Link>
 
-                                        <Link href="https://poriidhan.web.app/" target="_blank"
-                                        >
+                                        <a href={project.live} target="_blank" rel="noreferrer" >
                                             <FaEye className='h-12 w-12 hover:text-primary' />
-                                        </Link>
-
+                                        </a>
                                     </div>
                                 </div>
                             </div>)
