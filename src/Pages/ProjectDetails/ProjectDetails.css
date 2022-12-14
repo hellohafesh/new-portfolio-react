@@ -1,0 +1,18 @@
+.image-scroll-wrapper {
+    height: 250px;
+    overflow: hidden;
+}
+
+.image-scroll {
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+    /* width: 100%; */
+    height: auto;
+    transition: top 5s ease-out 0s;
+}
+
+.image-scroll:hover {
+    transform: translate(0, calc(-100% + 250px));
+    transition: 5s ease !important;
+}

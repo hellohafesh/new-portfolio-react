@@ -2,6 +2,7 @@ import React from 'react';
 import { useLoaderData } from 'react-router';
 import { Link } from 'react-router-dom';
 import allprojects from '../../project.json';
+import './ProjectDetails.css';
 
 
 
@@ -17,7 +18,7 @@ const ProjectDetails = () => {
 
             {
                 allproject.map(project => project.id === id ?
-                    <div key={project.id} className="blog mx-auto my-auto">
+                    <><div key={project.id} className="blog mx-auto my-auto">
                         <img src="img/poridhan.png" alt="" />
                         <div className="blog-text bg-zinc-800 text-white">
                             <h2 className=' pt-2 text-xl pb-0 mb-0 font-bold'>
@@ -49,7 +50,23 @@ const ProjectDetails = () => {
 
                             </div>
                         </div>
+
+
+
+
+
+
+
+
+
+
                     </div>
+
+
+
+                        <div class="image-scroll-wrapper h-96 w-96">
+                            <img class="image-scroll  h-96 w-96" alt='' src={project.home} />
+                        </div></>
                     :
                     <></>
 

@@ -8,21 +8,21 @@ import Section from '../Section/Section';
 
 
 const Home = () => {
-    let TxtType = function (el, toRotate, period) {
+    var TxtType = function (el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
         this.loopNum = 0;
         this.period = parseInt(period, 10) || 2000;
         this.txt = '';
         this.tick();
-        this.isDeleting = false;
+        this.isDevaring = false;
     };
 
     TxtType.prototype.tick = function () {
-        let i = this.loopNum % this.toRotate.length;
-        let fullTxt = this.toRotate[i];
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
 
-        if (this.isDeleting) {
+        if (this.isDevaring) {
             this.txt = fullTxt.substring(0, this.txt.length - 1);
         } else {
             this.txt = fullTxt.substring(0, this.txt.length + 1);
@@ -30,16 +30,16 @@ const Home = () => {
 
         this.el.innerHTML = '<span className="wrap">' + this.txt + '</span>';
 
-        let that = this;
-        let delta = 500 - Math.random() * 1000;
+        var that = this;
+        var delta = 500 - Math.random() * 1000;
 
-        if (this.isDeleting) { delta /= 2; }
+        if (this.isDevaring) { delta /= 2; }
 
-        if (!this.isDeleting && this.txt === fullTxt) {
+        if (!this.isDevaring && this.txt === fullTxt) {
             delta = this.period;
-            this.isDeleting = true;
-        } else if (this.isDeleting && this.txt === '') {
-            this.isDeleting = false;
+            this.isDevaring = true;
+        } else if (this.isDevaring && this.txt === '') {
+            this.isDevaring = false;
             this.loopNum++;
             delta = 500;
         }
@@ -50,16 +50,16 @@ const Home = () => {
     };
 
     window.onload = function () {
-        let elements = document.getElementsByClassName('typewrite');
-        for (let i = 0; i < elements.length; i++) {
-            let toRotate = elements[i].getAttribute('data-type');
-            let period = elements[i].getAttribute('data-period');
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i = 0; i < elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
             if (toRotate) {
                 new TxtType(elements[i], JSON.parse(toRotate), period);
             }
         }
         // INJECT CSS
-        let css = document.createElement("style");
+        var css = document.createElement("style");
         css.type = "text/css";
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
         document.body.appendChild(css);
@@ -75,7 +75,7 @@ const Home = () => {
 
 
                         <div className="typewriter flex justify-center">
-                            <h1 className="text-4xl text-center font-bold  w-96">Hi, I'm <span className='text-primary'>All Hafesh</span>.
+                            <h1 className="text-4xl text-center font-bold  w-[355px]">Hi,I'm <span className='text-primary'>All-Hafesh</span>.
 
                             </h1>
                         </div>
