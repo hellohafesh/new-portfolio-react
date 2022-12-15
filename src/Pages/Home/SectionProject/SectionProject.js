@@ -17,17 +17,17 @@ const SectionProject = () => {
                 {
                     allproject.map(project => project.best === true ?
                         <div key={project.id} className="blog mx-auto my-auto">
-                            <img src="img/poridhan.png" alt="" />
+                            <img src={project.banner} alt="" />
                             <div className="blog-text bg-zinc-800 text-white">
                                 <h2 className=' pt-2 text-xl pb-0 mb-0 font-bold'>
                                     {project.title}
                                 </h2>
                                 <div className='grid grid-cols-3 gap-2 py-2 px-2'>
-                                    <div className="badge badge-secondary">Tailwind</div>
-                                    <div className="badge badge-secondary">Daisy UI</div>
-                                    <div className="badge badge-secondary">React</div>
-                                    <div className="badge badge-secondary">Mongo DB</div>
-                                    <div className="badge badge-secondary">Node JS</div>
+                                    <div className="badge badge-secondary">{project.technology1}</div>
+                                    <div className="badge badge-secondary">{project.technology2}</div>
+                                    <div className="badge badge-secondary">{project.technology3}</div>
+                                    <div className="badge badge-secondary">{project.technology4}</div>
+                                    <div className="badge badge-secondary">{project.technology5}</div>
 
                                 </div>
                                 <p className='pb-0' style={{ padding: "0" }}>

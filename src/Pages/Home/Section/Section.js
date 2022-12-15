@@ -4,14 +4,14 @@ const Section = () => {
     return (
         <div>
             <h1 className="text-5xl font-bold text-center mx-10 my-20">Details Of My <span className='text-primary'>Exprience </span>. </h1>
-            <div className="container1">
+            <div className="container1 grid lg:grid-cols-3 md:grid-cols-2 xl:grid-cols-3 2xl:lg:grid-cols-3 sm:grid-cols-1 justify-center items-center">
                 <div className="card1">
                     <div className="img-container1">
                         <img src="https://play-lh.googleusercontent.com/85WnuKkqDY4gf6tndeL4_Ng5vgRk7PTfmpI4vHMIosyq6XQ7ZGDXNtYG2s0b09kJMw" alt="" />
                     </div>
                     <div className="card1-details">
                         <h2>HTML</h2>
-                        <p>Iron Man is a fictional superhero appearing in American comic books published by Marvel Comics. The character was co-created by writer and editor Stan Lee, developed by scripter Larry Lieber, and designed by artists Don Heck and Jack Kirby. </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, officia at labore tempore molestiae sunt ipsa vel laboriosam iure aliquid sint. A sint quas expedita, sit ducimus dolorem ipsum molestias? Repellat ipsum accusamus natus? Saepe, alias. </p>
                     </div>
                 </div>
                 <div className="card1">
@@ -20,7 +20,7 @@ const Section = () => {
                     </div>
                     <div className="card1-details">
                         <h2>CSS</h2>
-                        <p>In Germanic mythology, Thor (/θɔːr/; from Old Norse: Þórr) is a hammer-wielding god associated with thunder, lightning, storms, oak trees, strength, the protection of mankind and also hallowing and fertility. Besides Old Norse Þórr, extensions of the god occur in Old English as Þunor and in Old High German as Donar (runic þonar ᚦᛟᚾᚨᚱ).</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, officia at labore tempore molestiae sunt ipsa vel laboriosam iure aliquid sint. A sint quas expedita, sit ducimus dolorem ipsum molestias? Repellat ipsum accusamus natus? Saepe, alias.</p>
                     </div>
                 </div>
                 <div className="card1">
@@ -29,7 +29,7 @@ const Section = () => {
                     </div>
                     <div className="card1-details">
                         <h2>TAILWIND</h2>
-                        <p>Ant-Man is the name of several fictional superheroes appearing in books published by Marvel Comics. Created by Stan Lee, Larry Lieber and Jack Kirby, Ant-Man's first appearance was in Tales to Astonish #35 (September 1962).</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, officia at labore tempore molestiae sunt ipsa vel laboriosam iure aliquid sint. A sint quas expedita, sit ducimus dolorem ipsum molestias? Repellat ipsum accusamus natus? Saepe, alias.</p>
                     </div>
                 </div>
                 <div className="card1">
@@ -38,7 +38,7 @@ const Section = () => {
                     </div>
                     <div className="card1-details">
                         <h2>JAVASCRIPT</h2>
-                        <p>Doctor Stephen Strange is a fictional superhero appearing in American comic books published by Marvel Comics. Created by artist Steve Ditko and writer Stan Lee,[1] the character first appeared in Strange Tales #110 (cover-dated July 1963). Doctor Strange serves as the Sorcerer Supreme.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, officia at labore tempore molestiae sunt ipsa vel laboriosam iure aliquid sint. A sint quas expedita, sit ducimus dolorem ipsum molestias? Repellat ipsum accusamus natus? Saepe, alias.</p>
                     </div>
                 </div>
                 <div className="card1">
@@ -47,7 +47,7 @@ const Section = () => {
                     </div>
                     <div className="card1-details">
                         <h2>REACT</h2>
-                        <p>Captain America is a fictional superhero appearing in American comic books published by Marvel Comics. Created by cartoonists Joe Simon and Jack Kirby, the character first appeared in Captain America Comics #1 (cover dated March 1941) from Timely Comics, a predecessor of Marvel Comics.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, officia at labore tempore molestiae sunt ipsa vel laboriosam iure aliquid sint. A sint quas expedita, sit ducimus dolorem ipsum molestias? Repellat ipsum accusamus natus? Saepe, alias.</p>
                     </div>
                 </div>
                 <div className="card1">
@@ -56,7 +56,7 @@ const Section = () => {
                     </div>
                     <div className="card1-details">
                         <h2>NODE JS</h2>
-                        <p>Captain America is a fictional superhero appearing in American comic books published by Marvel Comics. Created by cartoonists Joe Simon and Jack Kirby, the character first appeared in Captain America Comics #1 (cover dated March 1941) from Timely Comics, a predecessor of Marvel Comics.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, officia at labore tempore molestiae sunt ipsa vel laboriosam iure aliquid sint. A sint quas expedita, sit ducimus dolorem ipsum molestias? Repellat ipsum accusamus natus? Saepe, alias.</p>
                     </div>
                 </div>
 

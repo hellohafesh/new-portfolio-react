@@ -1,6 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layout/Main";
 import About from "../Pages/About/About";
+import Blog from "../Pages/Blog/Blog";
+import Hire from "../Pages/Hire/Hire";
 import Home from "../Pages/Home/Home/Home";
 import ProjectDetails from "../Pages/ProjectDetails/ProjectDetails";
 import Projects from "../Pages/Projects/Projects";
@@ -27,17 +29,18 @@ const router = createBrowserRouter([
                 element: <ProjectDetails> </ProjectDetails>,
                 loader: ({ params }) => (params.id),
 
-                // product.map(id => id.id === params.id),
-                // loader: ({ params }) => console.log(params),
-                // fetch(`/projects/${params.id
-                // }`)
+
             },
             {
-                path: '/services',
-                element: <Projects></Projects>,
+                path: '/blog',
+                element: <Blog></Blog>,
             },
             {
-                path: '/blogs',
+                path: '/hire',
+                element: <Hire></Hire>,
+            },
+            {
+                path: '/resume',
                 element: <Resume></Resume>,
             },
             {

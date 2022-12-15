@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import Button from '../../../Layout/Component/Button/Button';
 import './Nav.css'
 const Nav = () => {
     const items = <>
         <li><Link className='btn btn-ghost hover:text-primary' to='/'>Home</Link></li>
         <li><Link className='btn btn-ghost hover:text-primary' to='/projects'>My Projects</Link></li>
         <li><Link className='btn btn-ghost hover:text-primary' to='/'>Services</Link></li>
-        <li><Link className='btn btn-ghost hover:text-primary' to='/blogs'>Blogs</Link></li>
+        <li><Link className='btn btn-ghost hover:text-primary' to='/resume'>Resume</Link></li>
         <li><Link className='btn btn-ghost hover:text-primary' to='/about'>About</Link></li>
+        <li><Link className='btn btn-ghost hover:text-primary' to='/blog'>Blogs</Link></li>
     </>
 
 
@@ -64,9 +64,7 @@ const Nav = () => {
                             {items}
                         </ul>
                     </div>
-                    <a className='' href='../../../../public/img/Resume-of-All-Hafesh.pdf' download >
-                        <Button value={"Resume"}></Button>
-                    </a>
+
 
                 </div>
             </div>
