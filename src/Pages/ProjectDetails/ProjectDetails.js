@@ -56,10 +56,35 @@ const ProjectDetails = () => {
                     </div>
 
 
+                        <div className="flex flex-wrap gap-4">
 
-                        <div class="image-scroll-wrapper h-96 w-96">
-                            <img class="image-scroll  h-96 w-96" alt='' src={project.home} />
-                        </div></>
+                            <div class="image-scroll-wrapper h-96 w-96">
+                                <img class="image-scroll  h-96 w-96" alt='' src={project.home} />
+                            </div>
+                            <div class="image-scroll-wrapper h-96 w-96">
+                                <img class="image-scroll  h-96 w-96" alt='' src={project.signup} />
+                            </div>
+                            <div class="image-scroll-wrapper h-96 w-96">
+                                <img class="image-scroll  h-96 w-96" alt='' src={project.image1} />
+                            </div>
+                            <div class="image-scroll-wrapper h-96 w-96">
+                                <img class="image-scroll  h-96 w-96" alt='' src={project.image2} />
+                            </div>
+                            <div class="image-scroll-wrapper h-96 w-96">
+                                <img class="image-scroll  h-96 w-96" alt='' src={project.image3} />
+                            </div>
+                            <div class="image-scroll-wrapper h-96 w-96">
+                                <img class="image-scroll  h-96 w-96" alt='' src={project.image4} />
+                            </div>
+                            <div class="image-scroll-wrapper h-96 w-96">
+                                <img class="image-scroll  h-96 w-96" alt='' src={project.image5} />
+                            </div>
+                        </div>
+
+
+
+
+                    </>
                     :
                     <></>
 
