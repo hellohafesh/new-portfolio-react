@@ -6,7 +6,7 @@ const Blog = () => {
 
     return (
         <div>
-            <div className='h-[100vh] w-[100wh]  flex  justify-center items-center'>
+            <div className='h-[100vh] w-[100wh]  flex  justify-center items-center' data-aos="zoom-in">
 
 
 

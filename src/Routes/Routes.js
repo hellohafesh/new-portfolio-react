@@ -7,6 +7,7 @@ import Home from "../Pages/Home/Home/Home";
 import ProjectDetails from "../Pages/ProjectDetails/ProjectDetails";
 import Projects from "../Pages/Projects/Projects";
 import Resume from "../Pages/Resume/Resume";
+import Service from "../Pages/Service/Service";
 import Thankyou from "../Pages/Shered/Thankyou/Thankyou";
 
 
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
             {
                 path: '/resume',
                 element: <Resume></Resume>,
+            },
+            {
+                path: '/service',
+                element: <Service></Service>,
             },
             {
                 path: '/about',

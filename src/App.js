@@ -1,12 +1,20 @@
 import { RouterProvider } from 'react-router';
 import './App.css';
 import router from './Routes/Routes';
-import { useCallback } from "react";
+import { useCallback, useEffect } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 function App() {
+
+
+
+  useEffect(() => {
+    AOS.init({ duration: 1000 })
+  }, [])
   const particlesInit = useCallback(async engine => {
     // console.log(engine);
     await loadFull(engine);
@@ -120,7 +128,7 @@ function App() {
           }
         }
       />
-      <div className='absolute , mx-auto , m-0 , p-0 , box-border , h-[100vh] w-[100vw] '>
+      <div className='absolute , mx-auto , m-0 , p-0 , box-border , h-[100vh] w-[98vw] '>
 
         <RouterProvider router={router}>
 

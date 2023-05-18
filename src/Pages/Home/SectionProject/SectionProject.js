@@ -10,13 +10,15 @@ const SectionProject = () => {
     const allproject = allprojects;
     return (
         <div>
-            <h1 className="text-4xl font-bold text-center  my-32">Some Of My <span className='text-primary'>Projects</span>. </h1>
+            <h1 className="text-4xl font-bold text-center  my-32" data-aos="fade-down-right">Some Of My <span className='text-primary'>Projects</span>. </h1>
             <div className="blogs ">
 
 
                 {
                     allproject.map(project => project.best === true ?
-                        <div key={project.id} className="blog mx-auto my-auto">
+                        <div key={project.id} className="blog mx-auto my-auto" data-aos="fade-down"
+                            data-aos-easing="linear"
+                            data-aos-duration="1800">
                             <img src={project.banner} alt="" />
                             <div className="blog-text bg-zinc-800 text-white">
                                 <h2 className=' pt-2 text-xl pb-0 mb-0 font-bold'>

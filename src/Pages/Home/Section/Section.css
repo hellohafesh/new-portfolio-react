@@ -1,14 +1,14 @@
 .container1 {
     max-width: 90%;
-    margin: 100px auto;
+    margin: auto;
     justify-content: space-around;
 }
 
 .card1 {
     position: relative;
     margin: 20px 0;
-    width: 280px;
-    height: 380px;
+    width: 180px;
+    height: 280px;
     background: #fff;
     transform-style: preserve-3d;
     transform: perspective(2000px);
@@ -59,7 +59,7 @@
     margin: 0;
     padding: 0.5em 0;
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 15px;
     font-weight: bold;
     color: #1eb854;
 }
@@ -68,6 +68,6 @@
 .card1 .card1-details p {
     margin: 0;
     padding: 0;
-    line-height: 25px;
-    font-size: 1.1em;
+    font-size: 12px;
+    text-align: justify;
 }

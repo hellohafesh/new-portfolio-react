@@ -15,3 +15,8 @@
 .aaaa {
   position: static;
 }
+
+.messenger {
+  position: static;
+  bottom: 10px;
+}

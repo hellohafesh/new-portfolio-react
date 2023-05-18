@@ -11,7 +11,7 @@ const Hire = () => {
             <div className="hero " >
                 <div className="hero-content flex-col justify-center lg:flex-row-reverse">
 
-                    <form className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100" action="https://formsubmit.co/allhafesh825@gmail.com" method="POST">
+                    <form className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100" action="https://formsubmit.co/allhafesh825@gmail.com" method="POST" data-aos="zoom-out-up">
                         <h1 className='text-primary text-2xl font-bold text-center'> For Connect  Send Your Details</h1>
                         <div className="card-body">
                             <div className="form-control">
@@ -47,10 +47,12 @@ const Hire = () => {
 
 
 
+                    <div className='m-3 '>
+                        <div className="" data-aos="fade-down">
+                            <h1 className='text-primary text-3xl font-bold text-center'>Why You Hire Me</h1>
+                        </div>
 
-                    <div className='m-3'>
-                        <h1 className='text-primary text-3xl font-bold text-center'>Why You Hire Me</h1>
-                        <div class="maincontainer ">
+                        <div class="maincontainer " data-aos="zoom-out-right">
                             <div class="back">
                                 <h2 className="text-primary font-bold text-xl mt-3">Creative Things</h2>
                                 <p>Introduction to Copywriting’ workshop focuses on the theory and processes of professional copywriting as applied to persuasion, reasoning, and rhetoric. This workshop is best-suited to learning how to write and think about consumer-driven functions.</p>
@@ -61,7 +63,7 @@ const Hire = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="maincontainer">
+                        <div class="maincontainer" data-aos="zoom-out-left">
                             <div class="back">
                                 <h2 className="text-primary font-bold text-xl mt-3">Service & Commitment</h2>
                                 <p>Introduction to Content Marketing workshop focuses on building content frameworks that are designed for and directed at communication engagement. This interdisciplinary workshop is best-suited to learning visual and written communication strategies.</p>
@@ -72,7 +74,7 @@ const Hire = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="maincontainer">
+                        <div class="maincontainer" data-aos="fade-up">
                             <div class="back">
                                 <h2 className="text-primary font-bold text-xl mt-3">Security & Safety</h2>
                                 <p>Introduction to Web-Writing workshop focuses on building creative and systemic digital content through online user experiences that benefit people and robots. This workshop is best-suited to creating content for digital platforms and devices — websites, mobile, game consoles, and virtual reality engines.</p>
@@ -83,7 +85,7 @@ const Hire = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="maincontainer">
+                        <div class="maincontainer" data-aos="fade-up">
                             <div class="back">
                                 <h2 className="text-primary font-bold text-xl mt-3">Partner & Relation</h2>
                                 <p>Introduction to Copywriting’ workshop focuses on the theory and processes of professional copywriting as applied to persuasion, reasoning, and rhetoric. This workshop is best-suited to learning how to write and think about consumer-driven functions.</p>
